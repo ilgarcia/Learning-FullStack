@@ -1,0 +1,139 @@
+
+body .newBack{
+    background-image: url(./Assetes/tile.jpg);
+    background-repeat:repeat-x;
+    /* background-size: cover; */
+    background-attachment: fixed;
+}
+
+#externo{
+    color: blueviolet;
+    background-color: #d17474;
+    
+}
+
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm{
+    background-color: red;
+    width: 5mm;
+    height: 5mm;
+}
+
+#in{
+    background-color: blue;
+    width: 1in;
+    height: 1in;
+}
+
+#px{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+}
+
+#pt{
+    background-color: blue;
+    width: 10pt;
+    height: 10pt;
+}
+
+#pc{
+    background-color: red;
+    width: 1pc;
+    height: 1pc;
+}
+
+.container{
+    font-size: 20px;
+    /* vw = % (50vw) - Largura */
+    /* vh = % (50vh) - Altura */
+    /* vmin = % (50vmin) - Menor entre Largura e altura da janela */
+    /* vmax = % (50vmax) - Maior entre Largura e altura da janela */
+    /*% (50%) - Porcentagem da tag pai */
+    width: 50vw;
+    background-color: red;
+}
+
+.inside{
+    /* font-size relativa em relação ao div pai (container) em 2em (2x) */
+    /* font-size: 2em; */
+    /* font-size relativa em relação ao elemento raiz (<html>) em 2rem (2x) */
+    font-size: 2rem;
+    background-color: blue;
+}
+
+#base{
+    height: 10px;
+    background-color: red;
+    /* margem externa da div */
+    margin: 10px; 
+}
+
+#container-2{
+    background-color: blue; 
+    color: white;
+    /* margem interna da div */
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 20%;
+
+}
+
+.paragrafo{
+    color: red;
+    text-align: right;
+    /* Capitalize the text */
+    text-transform: initial;
+    /* Espaço do paragrafo */
+    text-indent: 15px;
+    /* Estilo do texto (sublinhado sobretaxado...) */
+    text-decoration: underline;
+    /* espaço entre as letras */
+    letter-spacing: 1.2px;
+    word-spacing: 15px;
+    /* alterar a familia da fonte (1ª fonte, 2ª fonte, 3ª fonte) */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Estilo da fonte */
+    font-style: italic;
+    /* Grossura do texto */
+    font-weight: bold;
+    /* tamanho da fonte */
+    font-size: 25px;
+    line-height: 20px;
+    text-shadow: 1px 1px 1px #bbb;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:visited{
+    color: red;
+}
+
+/* quando feito o click ele ativa*/
+/* .link:active{ */
+/* quando o mouse passa por cima */
+.link:hover{
+    background-color: #bc2035;
+    color: white;
+}
+
+ul{
+    list-style-type: circle;
+    border: 1px;
+    list-style-position: inside;
+    /* caminho para colocar uma imagem no lugar */
+    /* list-style-image: url("caminho"); */
+}
+
+ol{
+    list-style-type: upper-roman;
+}
