@@ -1,0 +1,46 @@
+body{
+    font-size: 1.2rem;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.static{
+    position: static; 
+}
+
+.relative{
+    /* eixo do tag pai */
+    position: relative;
+    top: 15px;
+}
+
+.fixed{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.absolute{
+    /* eixo do <body> */
+    position: absolute;
+    left: 0px;
+}
+
+.sticky{
+    /* fixa o conteudo no topo da tela */
+    position: sticky;
+    top: 0;
+}
+
