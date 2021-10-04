@@ -48,7 +48,7 @@ body .newBack{
     height: 1pc;
 }
 
-.container{
+.container-inside{
     font-size: 20px;
     /* vw = % (50vw) - Largura */
     /* vh = % (50vh) - Altura */
@@ -57,6 +57,17 @@ body .newBack{
     /*% (50%) - Porcentagem da tag pai */
     width: 50vw;
     background-color: red;
+}
+
+#container-2-inside{
+    background-color: blue; 
+    color: white;
+    /* margem interna da div */
+    padding: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 20%;
 }
 
 .inside{
@@ -72,18 +83,6 @@ body .newBack{
     background-color: red;
     /* margem externa da div */
     margin: 10px; 
-}
-
-#container-2{
-    background-color: blue; 
-    color: white;
-    /* margem interna da div */
-    padding: 10px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: yellow;
-    border-radius: 20%;
-
 }
 
 .paragrafo{

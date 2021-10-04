@@ -1,0 +1,16 @@
+body{
+    font-size: 1.2rem;
+}
+
+.header{
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    background-color: gray;
+}
+
+.content{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+}
