@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="GET" action="/cadastro">
+        <!-- Text -->
+        <input type="text" name="email">
+        <input type="text" name="nome">
+        <!-- Password utilizar o POST -->
+        <input type="password" name="senha">
+        <!-- Checkbox -->
+        <input type="checkbox" name="curso" value="op1">React Native<br>
+        <input type="checkbox" name="curso" value="op2">React Native<br>
+        <input type="checkbox" name="curso" value="op3">React Native<br>
+        <!-- radio tem que ter o mesmo name-->
+        <input type="radio" name="gender" value="m" checked>Masculino<br>
+        <input type="radio" name="gender" value="f">Feminino<br>
+        <!-- botão reset -->
+        <input type="reset" value="limpar">
+        <!-- Botão -->
+        <input type="submit" value="enviar">
+        <!-- Select -->
+        <select name="estado" size="3" multiple>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SP" selected>São Paulo</option>
+        </select>
+        <!-- Textarea -->
+        <textarea name="mensagem" cols="30" rows="10"></textarea>
+        <!-- Data -->
+        <input type="date" name="data" max="2021-12-31">
+        <input type="datetime-local" name="data" max="2021-12-31">
+        <!-- Arquivo tem que ser POST -->
+        <input type="file" name="arquivo">
+        <!-- numeros -->
+        <input type="number" name="number" min="5" max="10">
+        <!-- Intervalo -->
+        <input type="range" name="intervalo" min="5" max="10" value="6">
+        <!-- telefone -->
+        <input type="tel" name="telefone">
+        <!-- email -->
+        <input type="email" name="email">
+        <!-- Algumas tags do HTML5 com pouca compatibilidade-->
+        <input type="color" name="cor">
+        <!-- Tags Semanticas melhorar SEO -->
+        <!-- header -->
+        <header></header>
+        <!-- navegação - sumario - representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação. -->
+        <nav></nav>
+        <!-- footer -->
+        <footer></footer>
+        <!-- main - conteudo principal do site so pode aparecer uma vez -->
+        <main></main>
+        <!-- section - sessões do seu site -->
+        <section></section>
+        <!-- article - faça sentido independente da pagina -->
+        <article></article>
+        
+    </form>
+</body>
+</html>

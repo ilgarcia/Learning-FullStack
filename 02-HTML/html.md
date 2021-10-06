@@ -11,3 +11,7 @@
 >> script.js
 >>
 >> style.css
+
+Site para testar compatibilidade de tags em navegadores
+
+https://caniuse.com/

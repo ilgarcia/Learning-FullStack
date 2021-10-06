@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS Interno -->
+    <style>
+      .interno {
+        color: blue;
+      }
+    </style>
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Aprendendo CSS</title>
+  </head>
+  <body>
+    <!-- position -->
+    <div class="quadrado blue sticky"></div>
+    <div>
+      <!-- Ancoragem -->
+      <a href="#ancoragem">ancoragem</a>
+      <div class="newBack">
+        <!-- CSS Inline -->
+        <p style="color: red">
+          Novo paragrafo 1
+          ..............................................................................
+        </p>
+        <!-- CSS Interno usando class-->
+        <p class="interno">
+          Novo paragrafo 2
+          ..............................................................................
+        </p>
+        <!-- CSS externo usando id-->
+        <p id="externo">
+          Novo paragrafo 3
+          ..............................................................................
+        </p>
+      </div>
+      <div>
+        <!-- Medidas -->
+        <div id="cm"></div>
+        <div id="mm"></div>
+        <div id="in"></div>
+        <div id="px"></div>
+        <div id="pt"></div>
+        <div id="pc"></div>
+      </div>
+
+      Texto no body
+      <div class="container-inside">
+        Texto conteiner
+        <div class="inside">Texto inside</div>
+      </div>
+
+      <div id="base"></div>
+
+      <div id="container-2-inside">
+        <div id="conteudo">Texto conteudo</div>
+      </div>
+
+      <!-- estilizar fonte -->
+      <div class="divisao">
+        <p class="paragrafo">
+          Novo paragrafo 4
+          ..............................................................................
+        </p>
+        <p class="paragrafo">
+          Novo paragrafo 5
+          ..............................................................................
+        </p>
+        <p class="paragrafo">
+          Novo paragrafo 6
+          ..............................................................................
+        </p>
+      </div>
+
+      <!-- estilizar link -->
+      <a href="#" class="link">Cadastrar</a>
+
+      <div>
+        <!-- listas não ordenadas-->
+        <ul class="list-ul-style">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+
+        <!-- listas ordenadas-->
+        <ol class="list-ol-style">
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ol>
+      </div>
+
+      <!-- Autoflow -->
+
+      <div id="container-autoflow">
+        Lorem ipsum dolor sit amet. Vel fugit laudantium et Quis galisum est
+        laborum modi. Aut accusamus voluptatibus et quae voluptates cum tempore
+        error eum suscipit ipsum est similique aliquid ut rerum nemo At tempore
+        aliquid. Aut dolorem ipsa ex fugiat quis et facilis modi.
+      </div>
+
+      <!-- Centralizando -->
+      <div id="container-centralizado"></div>
+      <img src="./assets/pc.jpg" alt="pc" class="img-centralizado" />
+      <div class="container-centralizado">
+        <img src="./assets/pc.jpg" alt="pc" />
+      </div>
+    </div>
+
+    <!-- position -->
+    <div>
+      <div>
+        <div class="quadrado blue static"></div>
+        <div class="quadrado red relative"></div>
+        <div class="quadrado blue fixed"></div>
+        <div class="quadrado red absolute"></div>
+        
+      </div>
+    </div>
+
+    <!-- Float -->
+    <div>
+      <div>
+        <div class="overflow">
+          <img id="i1" src="./assets/pc.jpg" alt="pc" />
+          <img id="i2" src="./assets/pc.jpg" alt="pc" />
+          <p class="clear">
+            Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto
+            qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer
+            Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto
+            qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer
+            Texto qualquer Texto qualquer Texto qualquer Texto qualquer Texto
+            qualquer Texto qualquer Texto qualquer Texto qualquer Texto qualquer
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <ul class="menu">
+          <li class="menu-1">Item 1</li>
+          <li class="menu-1">Item 2</li>
+          <li class="menu-1">Item 3</li>
+          <li class="menu-1">Item 4</li>
+          <li class="menu-1">Item 5</li>
+        </ul>
+      </div>
+
+      <div class="inline-block">
+        <div class="card">
+          <div class="c1">Igor Lima</div>
+        </div>
+        <div class="card">
+          <div class="c2">Igor Lima</div>
+        </div>
+        <div class="card2">
+          <div>Igor Lima</div>
+        </div>
+      </div>
+
+      <!-- Responsividade -->
+      <div class="header">
+        <div class="content">div</div>
+      </div>
+
+      <div class="header-2">
+        <div class="logo">
+            logo
+        </div>
+    
+        <ul class="menu-2">
+            <li class="menu-3">Home</li>
+            <li class="menu-3">Cursos</li>
+            <li class="menu-3">Contato</li>
+            <li class="menu-3">Contato 2</li>
+        </ul>
+    </div>
+
+      <!-- Ancoragem -->
+      <div>
+        <p id="ancoragem">ancoragem</p>
+      </div>
+    </div>
+  </body>
+</html>
