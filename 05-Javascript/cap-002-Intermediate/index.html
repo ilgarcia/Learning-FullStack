@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Javascript Intermediario</title>
+
+</head>
+<body onload="console.log('pagina completamente carregada')">
+    <h1>Começando</h1>
+
+    <p class="paragrafo" id="p1"> Paragrafo 1</p>
+    <p class="paragrafo">Paragrafo 2</p>
+    <p> Paragrafo 2</p>
+
+    <h2 onclick="console.log('h2 foi clicado')">Eventos DOM - clica aqui</h2>
+   
+    <p onclick="p1Click()">Função onclick</p>
+
+    <h2 id="alterarTexto">Texto do input</h2>
+    <div onclick="addElement()" onmouseover="onOver(this)" onmouseout="onOut(this)" class="buttom">Click</div>
+    <div>
+        <input id="textoInput" type="text" onchange="changeInputText()"> 
+    </div>
+    <br>
+    <div onclick="hideH2()" onmouseover="onOver(this)" onmouseout="onOut(this)" class="buttom">Click</div>
+    
+    <!-- Elementos pai e filho -->
+    <div id="d1">
+        <h3>Titulo</h3>
+        <p>Qualquer Texto</p>
+    </div>
+
+    <div id="d2">
+        <h3>Titulo</h3>
+        <p>Qualquer Texto</p>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
