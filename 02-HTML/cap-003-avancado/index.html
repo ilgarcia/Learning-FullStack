@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <title>HTML + Javascript</title>
+</head>
+<body>
+    <!-- atributos -->
+    <div>
+        <img id="like" src="./assets/pc.jpg" alt="pc">
+    </div>
+    <div>
+        <ul id="listaAtributo" data-num="5"></ul>
+    </div>
+
+    <!-- video atributes -->
+
+    <!-- 
+        preload
+        - auto - pagina carrega -> video carrega
+        - metadata - pagina carrega -> alguns dados carregam
+        - none - carrega quando o usuario der o play
+    -->
+
+    <video width="540" src="./assets/por-do sol.mp4" 
+    controls 
+    autoplay 
+    muted
+    loop
+    preload="none"
+    poster="./assets/pc2.jpg"></video>
+
+    <div class="container">
+
+        <video id="videoJS" class="video" src="./assets/por-do sol.mp4"></video>
+        <div class="controle">
+            <img class="btn" onclick="retroceder()" src="./assets/Back.png" alt="img">
+            <img class="btn" onclick="avancar()" src="./assets/Foward.png" alt="img">
+            <img class="btn" onclick="diminuirVelocidade()" src="./assets/Decrease.png" alt="img">
+            <img class="btn" onclick="aumentarVelocidade()" src="./assets/Increase.png" alt="img">
+            <img class="btn" onclick="play()" src="./assets/Play.png" alt="img">
+            <img class="btn" onclick="stop()" src="./assets/Stop.png" alt="img">
+        </div>
+
+    </div>
+
+    <!-- Iframe -->
+    <!-- Bom para o embeed de videos youtube/vimeo -->
+    <div>
+        <h3>Está Pagina é a index</h3>
+        <iframe class="frame" src="./pagina2.html"></iframe>
+    </div>
+
+    <!-- Audio -->
+    <!-- tem as mesmas propriedades do video -->
+
+    <!-- Ele tenta rodar o primeiro source e se não der certo ele passa para o proximo -->
+    <!-- <audio>
+        <source src="" type="audio/ogg">
+        <source src="" type="audio/mpeg">
+    </audio> -->
+
+    <!-- Animação com HTML -->
+    <div class="tela">
+        <div id="jogador" class="quadrado"></div>
+    </div>
+
+    <!-- Canvas -->
+    <!-- Elementos de animação javascript -->
+
+    <div>
+        <canvas id="tela" width="500px" height="500px">
+            
+        </canvas>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

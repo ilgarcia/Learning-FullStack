@@ -425,3 +425,40 @@ let stringBase = JSON.stringify(jsonBase)
 
 console.log(jsonBase)
 console.log(stringBase)
+
+// local storage
+
+let alunoStorage = {
+    nome: "Igor",
+    nota: 7.3
+}
+
+localStorage.setItem("aluno", JSON.stringify(alunoStorage));
+
+let nome = JSON.parse(localStorage.getItem("aluno"));
+console.log(nome)
+
+localStorage.removeItem("nome");
+
+localStorage.clear()
+;
+
+window.onload = function () {
+
+    let nome = localStorage.getItem("nomeUm")
+    let h3 = document.getElementById("localStorage");
+    h3.innerHTML = nome
+
+    console.log('pagina completamente carregada')
+}
+
+function atualizar(element) {
+
+    let valor = element.value
+    console.log(valor)
+
+    let h3 = document.getElementById("localStorage");
+    h3.innerHTML = valor
+
+    localStorage.setItem("nomeUm", valor)    
+}
