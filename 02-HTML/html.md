@@ -12,6 +12,8 @@
 >>
 >> style.css
 
-Site para testar compatibilidade de tags em navegadores
+Site para testar compatibilidade de tags/css em navegadores
 
 https://caniuse.com/
+http://shouldiprefix.com/
+

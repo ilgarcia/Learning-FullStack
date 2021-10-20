@@ -1,0 +1,52 @@
+/* flex direction */
+
+.container{
+    height: 500px;
+    color: white;
+    padding: 10px;
+    background-color: gray;
+
+    /* grid é linhas/colunas */
+    display: grid;
+
+    /* propriedades do grid template */
+    /* grid-template-rows: auto auto;
+    grid-template-columns: 10% 100px auto; */
+    /* grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr 1fr; */
+
+    /* outra forma de escrever  grid-template-rows: linha/ colunas */
+    grid-template: auto auto / auto auto auto;
+
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    /* ou */
+    /* grid-gap: 10px; */
+
+    /* alinhamento do elemento dentro do grid */
+    /* horizontal */
+    justify-items: center;
+    /* vertical */
+    align-items: center;
+
+    /* alinhamento da grid dentro do container */
+    /* horizontal */
+    justify-content: flex-end;
+    /* vertical */
+    align-content: flex-end;
+}
+
+.r1{
+    background-color: red;
+}
+.r2{
+    background-color: blue;
+}
+.r3{
+    background-color: green;;
+}
+
+.rect{
+    /* width: 100px; */
+    height: 100px;
+}

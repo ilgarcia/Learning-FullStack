@@ -1,0 +1,163 @@
+
+
+/* Seletores */
+
+/*
+seletor global
+* {
+    background-color: papayawhip;
+}
+
+multiplo seletor
+div, header{
+    background-color: plum;
+}
+
+seletor filho
+header p {
+    background-color: green;
+}
+
+seletor filho tag mais proxima
+header > p {
+    background-color: blue;
+}
+
+seletor a proxima tag depois do elemento
+header + p {
+    background-color: green;
+}
+
+seletor todos depois do elemento
+header ~ p {
+    background-color: green;
+}
+
+seletor de atributo
+[width]{
+    background-color: green;
+}
+
+[width="500"]{
+    background-color: green;
+}
+
+seletor de atributo que tem a palavra
+[title~="Titulo"]{
+    background-color: green;
+}
+
+seletor de atributo que começa com a letra
+[title^="T"]{
+    background-color: green;
+}
+
+seletor de atributo que termina com a letra
+[title$="T"]{
+    background-color: green;
+}
+
+seletor de atributo que contem a letra
+[title*="T"]{
+    background-color: green;
+}  
+*/
+
+
+/* Pseudo Elementos */
+
+/* 
+:active		            Selects the active link
+:checked		        Selects every checked <input> element
+:disabled		        Selects every disabled <input> element
+:empty		            Selects every <p> element that has no children
+:enabled		        Selects every enabled <input> element
+:first-child		    Selects every <p> elements that is the first child of its parent
+:first-of-type	        Selects every <p> element that is the first <p> element of its parent
+:focus		            Selects the <input> element that has focus
+:hover		            Selects links on mouse over
+:in-range		        Selects <input> elements with a value within a specified range
+:invalid		        Selects all <input> elements with an invalid value
+:lang(language)		    Selects every <p> element with a lang attribute value starting with "it"
+:last-child		        Selects every <p> elements that is the last child of its parent
+:last-of-type		    Selects every <p> element that is the last <p> element of its parent
+:link		            Selects all unvisited links
+:not(selector)		    Selects every element that is not a <p> element
+:nth-child(n)		    Selects every <p> element that is the second child of its parent
+:nth-last-child(n)		Selects every <p> element that is the second child of its parent, counting from the last child
+:nth-last-of-type(n)    Selects every <p> element that is the second <p> element of its parent, counting from the last child
+:nth-of-type(n)		    Selects every <p> element that is the second <p> element of its parent
+:only-of-type		    Selects every <p> element that is the only <p> element of its parent
+:only-child		        Selects every <p> element that is the only child of its parent
+:optional		        Selects <input> elements with no "required" attribute
+:out-of-range		    Selects <input> elements with a value outside a specified range
+:read-only		        Selects <input> elements with a "readonly" attribute specified
+:read-write		        Selects <input> elements with no "readonly" attribute
+:required		        Selects <input> elements with a "required" attribute specified
+:root		            Selects the document's root element
+:target		            Selects the current active #news element (clicked on a URL containing that anchor name)
+:valid		            Selects all <input> elements with a valid value
+:visited		        Selects all visited links
+
+Selector	
+
+::after		            Insert content after every <p> element
+::before		        Insert content before every <p> element
+::first-letter		    Selects the first letter of every <p> element
+::first-line		    Selects the first line of every <p> element
+::selection		        Selects the portion of an element that is selected by a user */
+
+p::first-letter{
+    color: Blue;
+    font-size: 4rem;
+}
+
+p::first-line{
+    color: red;
+}
+
+p::selection{
+    background-color: yellow;
+    color: orange;
+}
+
+li{
+    list-style: none;
+}
+
+li::before{
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(./assets/google.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* li::after{} */
+
+li:first-child{
+    color: green;
+}
+
+li:first-of-type{
+    color: red;
+}
+
+li:nth-child(3){
+    color: grey;
+}
+
+li:nth-of-type(2n){
+    color: indianred;
+}
+
+li:nth-last-child(odd){
+    color: indigo;
+}
+
+input:focus{
+    color: red;
+}

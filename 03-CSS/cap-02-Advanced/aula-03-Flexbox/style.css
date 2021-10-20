@@ -1,0 +1,51 @@
+/* flex direction */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* flex-direction:  column; */
+
+    /* flex-wrap impede que o elemento diminuir com a tela */
+    flex-wrap: wrap;
+
+    /* flex-flow substitui o flex-direction e flex-wrap */
+    /* flex-flow: row wrap; */
+
+    /* posicionamento vertical/horizontal do elemento */
+    /* justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left */
+    /* align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end */
+    /* align-content: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end */
+
+    
+
+
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+}
+
+.r1{
+    /* alterar a ordem dos elementos no display flex (-n ... +n) */
+    order: 1;
+    background-color: red;
+}
+.r2{
+    background-color: blue;
+    /* faz com que o elemento aumente com a tela */
+    /* alterar o valor altera a escala */
+    flex-grow: 1;
+}
+.r3{
+    background-color: green;
+    /* impede do elemento encolher com a tela*/
+    flex-shrink: 0;
+
+    /* alinhamento somente para este elemento filho */
+    align-self: flex-end ;
+}
+
+.rect{
+    width: 100px;
+    height: 100px;
+}
+
