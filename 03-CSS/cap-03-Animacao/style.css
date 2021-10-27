@@ -109,6 +109,26 @@ word-spacing            	As a length.
 z-index	                    As an integer.
   */
 
+
+.btn{
+    display: inline-block;
+    padding: 20px;
+    background-color: blue;
+    color: #fff;
+    font-size: 30px;
+
+    transition-property: background-color, padding;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.btn:hover{
+    background-color: brown;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 @keyframes changeColor {
 
     /* from {background-color: red;}
@@ -149,4 +169,23 @@ z-index	                    As an integer.
     animation-name: move;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+
+    /* muito dos comandos podem ser compilado neste comando */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+.div1{
+    animation-timing-function: linear;
+}
+.div2{
+    animation-timing-function: ease;
+}
+.div3{
+    animation-timing-function: ease-in;
+}
+.div4{
+    animation-timing-function: ease-out;
+}
+.div5{
+    animation-timing-function: ease-in-out;
 }
