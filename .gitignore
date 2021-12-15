@@ -40,11 +40,7 @@ build/Release
 
 # Dependency directories
 
-**/*node_modules
-08-NodeJS/cap-01-Basic/04-images/node_modules/
-**/node_modules
-**/node_modules/
-node_modules
+/node_modules
 node_modules/
 jspm_packages/
 

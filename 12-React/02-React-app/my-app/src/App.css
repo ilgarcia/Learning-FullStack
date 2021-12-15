@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: darkgrey;
+  color: white;
+}
+
+.menu{
+  display: flex;
+  list-style-type: none;
+}
+
+.menu li{
+  margin-left: 25px;
+}

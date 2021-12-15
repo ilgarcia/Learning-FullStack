@@ -27,3 +27,53 @@ Quando o seu site esta hospedado ele recebe um IP e para chegar neste IP, o usua
 5. Direcionar para site por meio do DNS (Demora ate 72h para propagar)
 
 OBS.: A ordem do 4 e 5 é indiferente
+
+## Vendas/Marketing Digital
+
+- Produtos/Serviço
+- Meio de venda (receber o dinheiro ou contato do cliente)
+- **Marketing**
+- Pessoas interessadas
+
+### Funil de vendas
+
+Ponto central (Site, redes sociais...), conjunto que representa a oferta
+- Informação do produto
+- Meio de fazer o pedido
+
+Precisa atrair e atingir o maximo de pessoas, gerar um relacionamento (lead) e fazer uma oferta para converter parte delas em cliente.
+
+Pessoas > Leads > Clientes
+
+### Trafego
+
+- Orgânico
+* SEO
+* Conteúdo
+
+- Pago
+* Ads (FBAds, Google Ads)
+
+### SEO
+*Search for SEO Periodic Table*
+
+Palavra chave - keyword planner
+https://ads.google.com/intl/pt-BR_br/home/tools/keyword-planner/
+
+What the world is searching
+https://trends.google.com/trends/?geo=BR
+
+Google meu negócio
+https://www.google.com/intl/pt-BR_br/business/
+
+Não indexa no google
+"./01-Robots"
+
+Google analytics
+https://analytics.google.com/analytics/web/provision/#/provision
+
+Google Search Console
+https://search.google.com/search-console/about
+
+Site Map
+https://www.xml-sitemaps.com/

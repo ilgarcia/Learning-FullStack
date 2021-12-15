@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="root">
+
+    </div>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    
+    <!-- Babel -->
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+    <script type="text/babel">
+
+        const root = document.querySelector("#root")
+
+        // const element = React.createElement("h1", { id: "Título Principal" }, "Hello World")
+        // const t1 = React.createElement("h2", { id: "Título1" }, "Hello World")
+        // const t2 = React.createElement("h3", { id: "Título2" }, "Hello World")
+
+        // const headLine = React.createElement("div", null, t1, t2)
+
+        // ReactDOM.render(headLine, root)
+
+        // Usando o babel
+
+        const page = ()=>{
+            return <div>
+            <h1 id="1">Hello</h1>
+            <h2 id="2">sub</h2>
+            </div>
+        }
+
+        ReactDOM.render(page(), root)
+
+    </script>
+</body>
+
+</html>
