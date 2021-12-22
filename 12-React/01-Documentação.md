@@ -20,6 +20,8 @@ https://pt-br.reactjs.org/
 
 npx create-react-app my-app
 
+npx create-react-app@5.0.0 my-app
+
 ## Optimize React app
 
 npm run build
@@ -33,3 +35,18 @@ npm run build
   "name": "my-app",
   "version": "0.1.0",
 ```
+
+## Redux
+
+**Funcionamento do Redux**
+- Action
+  Pedido/ação (tipo e a carga)
+
+- Dispatch
+  Envia a ação para o Reducer
+
+- Reducer
+  Manipular o estado (gerar um novo estado e mandar esta estado modificado)
+
+- State
+  Estado da nossa aplicação
